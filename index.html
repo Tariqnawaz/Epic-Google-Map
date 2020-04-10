@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPIC GOOGLE MAP</title>
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/index.js"></script>
 </head>
 <body>
     
@@ -13,11 +12,29 @@
    <div class="title">STORE LOCATOR</div>
    <div class="input-container">
        <div class="input-box">
-           <input type="text">
+           <input id="zip-code" type="text" placeholder="Enter zip"/>
+           <i class="fas fa-search" onclick="search()"></i>
        </div>
    </div>
+   <div class="store-container">
+       <div class="store-list-container">
+           <div class="store-list-address">
+                <span>Lorem ipsum, dolor sit amet </span>
+                <span>consectetur adipisicing elit.</span> 
+                 <span><i class="fas fa-mobile-alt"></i>+441 222 333</span>
+           </div>
+           <div class="store-list-counter">
+                1
+            </div>
+       </div>
+       
+   </div>
+   <script src="js/store-data.js"></script>
+   <script src="js/index.js"></script>
+   <script src="https://kit.fontawesome.com/a60a3da392.js" crossorigin="anonymous"></script>
    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=newkey&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMYP0EoOfr2N_dSmYn-Olz47JYEB4MRH8&callback=initMap">
     </script>
+    
 </body>
 </html>

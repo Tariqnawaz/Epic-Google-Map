@@ -12,4 +12,17 @@
 
 .Add Store List Container DONE
 
-.Add individual store container
+.Add individual store container DONE
+
+============== Day 2
+
+
+.Show all the stores in the stores list based on real world data DONE
+
+.Show the marker based on real world store data DONE
+
+.Show the info window DONE
+
+.Show the info window when you click on the individual store
+
+.Add a beatufiful transtition on the hover of the individual store 

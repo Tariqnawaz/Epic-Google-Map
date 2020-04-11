@@ -123,5 +123,5 @@ function initMap() {
     for (var i = 0; i < markers.length; i++) {
       markers[i].setMap(null);
     }
-    markers.length = 0;
+    markers.length = 0;  
 }
